@@ -1,0 +1,33 @@
+ul {
+  width: 400px;
+  height: 315px;
+}
+
+li {
+  float: left;
+  border-style: solid;
+  width: 100px;
+  height: 100px;
+  list-style-type: none;
+  background-color: #DCDCDC;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+.clicked {
+  background-color: red;
+}
+
+.x {
+  background-image: url("../js/images/dog.png");
+  background-size: cover;
+
+}
+
+.o {
+  background-image: url("../js/images/cat.png");
+  background-size: cover;
+
+}
